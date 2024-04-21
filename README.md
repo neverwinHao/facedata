@@ -5,9 +5,18 @@
 
 # Example
 <div style="display: flex; justify-content: center;">
-    <img src="./img/image.png" width="200"/>
-    <img src="./img/image_with_bb.png" width="200"/>
-    <img src="./img/image_cropped.png" width="200"/>
+    <figure>
+        <img src="./img/image.png" width="200"/>
+        <figcaption>input(any size)</figcaption>
+    </figure>
+    <figure>
+        <img src="./img/image_with_bb.png" width="200"/>
+        <figcaption>keypoint</figcaption>
+    </figure>
+    <figure>
+        <img src="./img/image_cropped.png" width="200"/>
+        <figcaption>output(128*128)</figcaption>
+    </figure>
 </div>
 
 
