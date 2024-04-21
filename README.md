@@ -1,2 +1,2 @@
 # facedata
-结合openface与关键点对数据集重新处理
+结合Openface与关键点对数据集重新处理
