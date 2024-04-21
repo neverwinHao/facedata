@@ -5,22 +5,11 @@
 
 # Example
 # 并排显示三张图片
-
 <div style="display: flex; justify-content: center;">
-    <figure>
-        <img src="./img/image.png" width="200"/>
-        <p align="center">input(any size)</p>
-    </figure>
-    <figure>
-        <img src="./img/image_with_bb.png" width="200"/>
-        <p align="center">keypoint</p>
-    </figure>
-    <figure>
-        <img src="./img/image_cropped.png" width="200"/>
-        <p align="center">output(128*128)</p>
-    </figure>
+    <img src="./img/image.png" width="200"/>
+    <img src="./img/image_with_bb.png" width="200"/>
+    <img src="./img/image_cropped.png" width="200"/>
 </div>
-
 
 
 
