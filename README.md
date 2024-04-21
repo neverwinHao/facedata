@@ -4,7 +4,6 @@
 可以根据人脸68个关键点位置重塑人脸为128*128(可根据需要修改)
 
 # Example
-
 <center class="half">
     <img src="./img/image.png" width="200"/>
     <img src="./img/image_with_bb.png" width="200"/>
