@@ -4,20 +4,23 @@
 可以根据人脸68个关键点位置重塑人脸为128*128(可根据需要修改)
 
 # Example
+# 并排显示三张图片
+
 <div style="display: flex; justify-content: center;">
     <figure>
         <img src="./img/image.png" width="200"/>
-        <figcaption>input(any size)</figcaption>
+        <p align="center">input(any size)</p>
     </figure>
     <figure>
         <img src="./img/image_with_bb.png" width="200"/>
-        <figcaption>keypoint</figcaption>
+        <p align="center">keypoint</p>
     </figure>
     <figure>
         <img src="./img/image_cropped.png" width="200"/>
-        <figcaption>output(128*128)</figcaption>
+        <p align="center">output(128*128)</p>
     </figure>
 </div>
+
 
 
 
