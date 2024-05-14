@@ -59,7 +59,7 @@ sudo python setup.py install
 ```
 
 更多详细信息和故障排除，请参考 [OpenFace GitHub 仓库](https://github.com/cmusatyalab/openface)。
-```
+
 
 
 
