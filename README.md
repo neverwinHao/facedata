@@ -11,9 +11,12 @@
 </div>
 
 ## Explain
-|bicubic.py|双三次下采样|
-|keypoint.py|检测并保存人脸关键点|
-|key_distance.py|检测两个文件夹关键点并计算欧氏距离|
+| File            | Description                       |
+|-----------------|-----------------------------------|
+| bicubic.py      | 双三次下采样                      |
+| keypoint.py     | 检测并保存人脸关键点              |
+| key_distance.py | 检测两个文件夹关键点并计算欧氏距离 |
+
 
 
 
