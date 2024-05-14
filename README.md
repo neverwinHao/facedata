@@ -1,5 +1,5 @@
 # facedata
-结合Openface与关键点对数据集重新处理
+结合Openface与关键点对数据集重新处理(W-Net处理数据集官方来源)
 
 可以根据人脸68个关键点位置重塑人脸为128*128(可根据需要修改)
 
@@ -16,6 +16,9 @@
 | bicubic.py      | 双三次下采样                      |
 | keypoint.py     | 检测并保存人脸关键点              |
 | key_distance.py | 检测两个文件夹关键点并计算欧氏距离 |
+| data.py         | 检测两个文件夹剔除相同的文件        |
+| face_cut_xy.py  | 生成W-Net种可视化放大细节图       |
+| process.py      | 数据集处理方式                   |
 
 
 
