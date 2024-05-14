@@ -11,26 +11,56 @@
 </div>
 
 需要自己预先安装openface(https://github.com/cmusatyalab/openface)，大体流程如下：
+```
+# OpenFace 安装指南
+
+要使用 OpenFace，需要预先安装它。请按照以下步骤进行设置：
+
 ## 克隆 OpenFace 仓库
+
+```sh
 git clone https://github.com/cmusatyalab/openface.git
 cd openface
+```
 
 ## 安装 Python 依赖
-sudo pip install -r requirements.txt
 
-## 安装其他系统依赖（以 Ubuntu 为例）
+```sh
+sudo pip install -r requirements.txt
+```
+
+## 安装其他系统依赖
+
+以 Ubuntu 为例，运行以下命令安装其他依赖项：
+
+```sh
 sudo apt-get install -y cmake python-pip python-dev ipython
 sudo apt-get install -y libopencv-dev python-opencv
 sudo apt-get install -y dlib
+```
 
 ## 构建 OpenFace
+
+```sh
 sudo python setup.py install
+```
 
 ## 下载预训练模型
+
+```sh
 ./models/get-models.sh
+```
 
 ## 验证安装
+
+确保 OpenFace 安装正确，运行以下命令检查版本：
+
+```sh
 ./util/align-dlib.py
+```
+
+更多详细信息和故障排除，请参考 [OpenFace GitHub 仓库](https://github.com/cmusatyalab/openface)。
+```
 
 
 
