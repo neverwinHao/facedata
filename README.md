@@ -10,13 +10,17 @@
     <img src="./img/image_cropped.png" width="200"/>
 </div>
 
+## Explain
+|bicubic.py|双三次下采样|
+|keypoint.py|检测并保存人脸关键点|
+|key_distance.py|检测两个文件夹关键点并计算欧氏距离|
 
 
 
 
 ## Usage
 
-```python
+```bash
 cd openface
 pip install -r requirements.txt
 
