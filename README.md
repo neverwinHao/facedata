@@ -10,9 +10,8 @@
     <img src="./img/image_cropped.png" width="200"/>
 </div>
 
-需要自己预先安装openface(https://github.com/cmusatyalab/openface)，大体流程如下：
-```
-# OpenFace 安装指南
+需要自己预先安装openface(https://github.com/cmusatyalab/openface)
+## OpenFace 安装指南
 
 要使用 OpenFace，需要预先安装它。请按照以下步骤进行设置：
 
