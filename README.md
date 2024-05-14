@@ -11,25 +11,25 @@
 </div>
 
 需要自己预先安装openface(https://github.com/cmusatyalab/openface)，大体流程如下：
-# 克隆 OpenFace 仓库
+## 克隆 OpenFace 仓库
 git clone https://github.com/cmusatyalab/openface.git
 cd openface
 
-# 安装 Python 依赖
+## 安装 Python 依赖
 sudo pip install -r requirements.txt
 
-# 安装其他系统依赖（以 Ubuntu 为例）
+## 安装其他系统依赖（以 Ubuntu 为例）
 sudo apt-get install -y cmake python-pip python-dev ipython
 sudo apt-get install -y libopencv-dev python-opencv
 sudo apt-get install -y dlib
 
-# 构建 OpenFace
+## 构建 OpenFace
 sudo python setup.py install
 
-# 下载预训练模型
+## 下载预训练模型
 ./models/get-models.sh
 
-# 验证安装
+## 验证安装
 ./util/align-dlib.py
 
 
