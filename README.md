@@ -72,7 +72,7 @@ sudo python setup.py install
 | data.py         | 检测两个文件夹剔除相同的文件        |
 | face_cut_xy.py  | 生成W-Net种可视化放大细节图       |
 | process.py      | 数据集处理方式                   |
-
+| pic_xiaorong.py | 消融实验画图代码                   |
 
 
 
