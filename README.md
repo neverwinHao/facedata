@@ -73,7 +73,7 @@ sudo python setup.py install
 | face_cut_xy.py  | 生成W-Net种可视化放大细节图       |
 | process.py      | 数据集处理方式                   |
 | pic_xiaorong.py | 消融实验画图代码                   |
-
+| gen_binaryMASK.py | 生成二值化解析图，使用BiseNet                   |
 
 
 
