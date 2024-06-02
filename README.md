@@ -74,6 +74,7 @@ sudo python setup.py install
 | process.py      | 数据集处理方式                   |
 | pic_xiaorong.py | 消融实验画图代码                   |
 | gen_binaryMASK.py | 生成二值化解析图，使用BiseNet                   |
+| plot.m | 使用MATLAB画图                  |
 
 
 
